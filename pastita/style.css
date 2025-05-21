@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+:root{
+    --cor-de-fundo:#c2bfa1;
+    --lilás: #eeeed8;
+    --branco: #ffffff;
+    --botao-ativo: #b2b882;
+    --botao-inativo:rgba(136, 136, 106, 0.5);
+    --texto-fundo:rgba(255, 255, 255, 0.733);
+   }
+   body {
+   
+      background-color: var(--cor-de-fundo);
+      color: var(--lilás) ;
+      font-family: 'Poetsen One';
+   }
+
+   .conteudo-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+   }
+   
+   .titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
+   }
+
+   .titulo-principal span{
+    color:#eeeed8
+   }
+
+   .butao{
+    background-color: var(--botao-inativo);
+    color: beige;
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font-size: 18px;
+    align-items: center;
+    width: 100%;
+    border-bottom: 4px solid var(--botao-inativo);
+    border-left: 2px solid var(--botao-ativo);
+    border-right: 2px solid var(--botao-ativo);
+   }
